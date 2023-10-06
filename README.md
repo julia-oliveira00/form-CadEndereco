@@ -1,3 +1,5 @@
+### [English Version]()
+
 <h1 align="center">Cadastro de Endereço</h1>
 <p align="center">Um site que puxa o endereço pelo cep inserido usando <code>json</code> e <code>strictmode</code></p>
 
@@ -6,6 +8,8 @@
 
 Assim que voce insere o Cep e clica em tab o site deverá retornar preenchendo automaticamente as informações de endereço.
 
+___
+
 <h3>Em que casos o site não retorna as informações esperadas?</h3>
 
 * Caso o usuário clique em cadastrar ou na tecla enter a vizualização das informações previamente não será possivel.
@@ -13,10 +17,14 @@ Assim que voce insere o Cep e clica em tab o site deverá retornar preenchendo a
   
 <h3>Exemplos:</h3>
 <p>Caso o usuário digite um cep de 8 digitos inválido:</p>
+
 ![](img/exemplo.png)
 
 <p>Caso o usuário digite um cep incompleto ou com carcteres extras:</p>
+
 ![](img/exemplo1.png)
+
+# Códigos
 
 ```js
 "use strict"; //Strict mode
@@ -31,3 +39,4 @@ const limparFormulario = () => {
     document.getElementById('estado').value = '';
 }
 ```
+
