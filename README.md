@@ -12,7 +12,9 @@ ___
 
 * Caso o usuário clique em cadastrar ou na tecla enter a vizualização das informações previamente não será possivel.
 * Caso o cep esteja errado, incompleto ou eceder o numero de caracteres o site emitira um aviso e o site não retornará as informações.
-  
+
+___
+
 <h3>Exemplos:</h3>
 <p>Caso o usuário digite um cep de 8 digitos inválido:</p>
 
@@ -22,7 +24,8 @@ ___
 
 ![](img/exemplo1.png)
 
-# Códigos
+<h1 align="center">Códigos</h1>
+
 ```js
 "use strict"; //Strict mode
 // https://viacep.com.br/
@@ -73,3 +76,8 @@ const pesquisaCep = async() => {
 //Adiciona um evento DOM no input do CEP
 document.getElementById('cep').addEventListener('focusout', pesquisaCep);
 ```
+<h1 align="center">Tecnologias utilizadas</h1>
+
+* <code>HTML5</code>
+* <code>BOOTSTRAP 5.3.2</code>
+* <code>JAVASCRIPT</code>
